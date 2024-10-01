@@ -392,12 +392,12 @@ public:
             }
             case 2:
             {
-                cout << "Enter digits for the second number (end with -1): ";
+                cout << "Enter digits for the second number (end with 0): ";
                 int value;
                 while (true)
                 {
                     cin >> value;
-                    if (value == -1)
+                    if (value == 0)
                         break;
                     num2.insert(value);
                 }
